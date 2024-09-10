@@ -64,7 +64,7 @@ public class AuthorizedUserDataUpdateParamTest {
 
     @Test
     @Description("Проверка обновления данных пользователя при разных комбинациях допустимых значений email, password, name. (NEW_VALID_VALUE, NOT_CHANGED)")
-    public void UpdateUserData() {
+    public void updateUserData() {
 
         //Создаем пользователя, свойства которого будем менять в тесте.
         userClient.create(user);
